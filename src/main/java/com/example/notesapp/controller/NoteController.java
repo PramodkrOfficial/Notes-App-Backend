@@ -1,4 +1,4 @@
-package com.example.notesapp.controller;
+//package com.example.notesapp.controller;
 
 //
 //import com.example.notesapp.model.Note;
@@ -71,6 +71,9 @@ package com.example.notesapp.controller;
 
 
 
+package com.example.notesapp.controller;
+
+
 import com.example.notesapp.model.Note;
 import com.example.notesapp.service.NoteService;
 import org.springframework.http.ResponseEntity;
@@ -78,9 +81,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+
+//@CrossOrigin(origins = "https://task-app-frontend-sepia.vercel.app/")
 @RestController
 @RequestMapping("/api/notes")
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*")
 public class NoteController {
 
     private final NoteService noteService;

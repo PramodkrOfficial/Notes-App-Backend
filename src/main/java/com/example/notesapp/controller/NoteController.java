@@ -83,10 +83,8 @@ import java.util.List;
 
 
 
-//@CrossOrigin(origins = "https://task-app-frontend-sepia.vercel.app/")
 @RestController
 @RequestMapping("/api/notes")
-@CrossOrigin(origins = "*")
 public class NoteController {
 
     private final NoteService noteService;

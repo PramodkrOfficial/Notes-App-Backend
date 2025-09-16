@@ -14,7 +14,7 @@ public class NotesappApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Dockerizing Spring Boot Application";
+		return "Dockerizing Spring Boot Application is running";
 	}
 
 	public static void main(String[] args) {
